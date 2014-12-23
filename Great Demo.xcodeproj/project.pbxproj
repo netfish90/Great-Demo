@@ -19,6 +19,8 @@
 		5292D6E11A490B5900645632 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5292D6C91A490B5900645632 /* UIKit.framework */; };
 		5292D6E91A490B5900645632 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5292D6E71A490B5900645632 /* InfoPlist.strings */; };
 		5292D6EB1A490B5900645632 /* Great_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5292D6EA1A490B5900645632 /* Great_DemoTests.m */; };
+		5292D6F81A4946A000645632 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5292D6F61A4946A000645632 /* MainViewController.m */; };
+		5292D6F91A4946A000645632 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5292D6F71A4946A000645632 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		5292D6E61A490B5900645632 /* Great DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Great DemoTests-Info.plist"; sourceTree = "<group>"; };
 		5292D6E81A490B5900645632 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5292D6EA1A490B5900645632 /* Great_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Great_DemoTests.m; sourceTree = "<group>"; };
+		5292D6F51A4946A000645632 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5292D6F61A4946A000645632 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5292D6F71A4946A000645632 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,7 @@
 		5292D6B91A490B5900645632 = {
 			isa = PBXGroup;
 			children = (
+				5292D6F41A49466700645632 /* ViewControllers */,
 				5292D6CB1A490B5900645632 /* Great Demo */,
 				5292D6E41A490B5900645632 /* Great DemoTests */,
 				5292D6C41A490B5900645632 /* Frameworks */,
@@ -142,6 +148,16 @@
 				5292D6E71A490B5900645632 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5292D6F41A49466700645632 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5292D6F51A4946A000645632 /* MainViewController.h */,
+				5292D6F61A4946A000645632 /* MainViewController.m */,
+				5292D6F71A4946A000645632 /* MainViewController.xib */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5292D6D01A490B5900645632 /* InfoPlist.strings in Resources */,
+				5292D6F91A4946A000645632 /* MainViewController.xib in Resources */,
 				5292D6D81A490B5900645632 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5292D6D61A490B5900645632 /* AppDelegate.m in Sources */,
+				5292D6F81A4946A000645632 /* MainViewController.m in Sources */,
 				5292D6D21A490B5900645632 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +457,7 @@
 				5292D6F01A490B5900645632 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5292D6F11A490B5900645632 /* Build configuration list for PBXNativeTarget "Great DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +466,7 @@
 				5292D6F31A490B5900645632 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
